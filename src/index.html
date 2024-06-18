@@ -2,13 +2,89 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml" href="" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <title>practica chat mobile</title>
   </head>
   <body>
+    <main>   
+    <div class="containermain">
+      <div class="containermain__mobile-outer">
+        <div class="holewhite"></div>
+
+      <div class="containermain__mobile">
+        <div class="containermain__head">
+          <div class="containermain__profil">
+            <i class="bi bi-chevron-compact-left icon-chevron"></i>
+            <img class="photo-avatar" src="assets/images/avatar.jpg" alt="face-profile">
+            <div>
+              <p class="text text__name">Samuel Green</p>
+              <p class="text text__available">Avaible to walk</p>
+            </div>
+          </div>
+          <div class="containermain__threedots">
+            <i class="bi bi-three-dots-vertical icon-threedots"></i>
+          </div>
+        </div>
+        <div class="containermain__body">
+            <div class="containermain__dialog-first">
+              <p class=" text text__dialog">That sounds great. I’d be happy to discuss more.</p>
+              <p class=" text text__dialog">Could you send over some pictures of your dog, please?</p>
+
+            </div>
+            <div class="containermain__dialog-second">
+                <div class="containermain__img">   
+                  <img class="dog-photo" src="assets/images/dog-image-1.jpg">
+                  <img class="dog-photo" src="assets/images/dog-image-2.jpg">
+                  <img class="dog-photo" src="assets/images/dog-image-3.jpg">
+                </div>
+              <p class=" text text__dialog text__dialog--dialog-second-first">Here are a few pictures. She’s a happy girl!</p>
+              <p class=" text text__dialog text__dialog--dialog-second-second">Can you make it?</p>
+
+            </div>
+
+            <div class="containermain__dialog-third">
+              <p class=" text text__dialog">She looks so happy! The time we discussed works. How long shall I take her out for? </p>
+              <div class="containermain__boxrose">   
+                <p class="text text__dialog-rose">
+                  30 minute to walk
+                </p>
+                <p class="text text__dialog-preis">
+                  $29
+                </p>
+            </div>
+            <div  class="containermain__boxrose">
+              <p class="text text__dialog-rose">
+                1 hour to walk
+              </p>
+              <p class="text text__dialog-preis">
+                $49
+              </p>
+            </div>
+
+            </div>
+
+        </div>
+        <div class="containermain__input">
+            type a message...
+        </div>
+      </div>
+    </div>
+      <div class="containermain__banner">
+        <h1 class="text textitle">simple booking</h1>
+        <p class="text textbanner">
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+        </p>
+      </div>
+    </div>
+
     <script type="module" src="./js/index.js"></script>
+  </main>
   </body>
 </html>

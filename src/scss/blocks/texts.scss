@@ -1,1 +1,58 @@
+.text{
+    font-family: "Rubik", sans-serif;
 
+}
+.text__name{
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+
+}
+.text__available{
+    font-size: 8px;
+    color: #D99EFF;
+}
+
+.text__dialog{
+    width: 128px;
+    height: 34px;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #9341C8;
+    background-color: #EEE5F4;
+}
+
+.text__dialog--dialog-second-first{
+    background-color: #fff;
+    color: #6E5D7E;
+}
+.text__dialog--dialog-second-second{
+    background-color: #fff;
+    color: #6E5D7E;
+    width: 80px;
+    height: 23px;
+    white-space: nowrap;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 0.5rem
+}
+
+.text__dialog-rose{
+    font-size: 8px;
+    color: #fff;
+}
+
+.textitle{
+    font-size: 40px;
+    text-align: center;
+}
+.text__dialog-preis{
+    font-weight: 12px;
+    font-size: 11px;
+}
+
+.textbanner{
+    color: #A39DA9;
+}

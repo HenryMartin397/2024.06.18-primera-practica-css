@@ -1,0 +1,151 @@
+@use '../mixins/hover.scss' as *;
+@use '../mixins/pseudo.scss' as *;
+@use '../mixins/responsive.scss' as *;
+
+/*FOTOS*/
+
+.photo-avatar{
+    border: 2px white solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.dog-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+.containermain{
+    margin-left: auto;
+    margin-right: auto;
+    @include responsive(1200px){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem
+    }
+}
+
+.containermain__mobile-outer{
+    position: relative;
+    width: 247px;
+    height: 505px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containermain__mobile{
+    width: 228px;
+    height: 483px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F3F7;
+
+   
+}
+
+.containermain__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14.25rem; //228px
+    height: 4.125rem;   //66px
+    padding: 0.5rem;
+    border-radius: 20px 20px 5px 5px;
+    background: rgb(135,57,255);
+    background: linear-gradient(90deg, rgba(135,57,255,1) 0%, rgba(232,68,255,1) 100%);
+}
+.containermain__profil{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.icon-threedots{
+    color: white;
+}
+.icon-chevron{
+    color: white;
+}
+
+.holewhite{
+    position: absolute;
+    width: 129px;
+    height: 29px;
+    top: 0;
+    left: 60px;
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/*CONTAINERMAIN BODY*/
+.containermain__body{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containermain__dialog-second{
+    width: 136px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    
+}
+
+.containermain__img{
+    display: flex;
+    gap: 0.2rem;
+}
+
+
+.containermain__dialog-third{
+    display: flex;
+    flex-direction: column;
+   gap: 1rem;
+}
+.containermain__boxrose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(135,57,255);
+    background: linear-gradient(90deg, rgba(135,57,255,1) 0%, rgba(232,68,255,1) 100%);
+    padding: 1rem;
+    width: 160px;
+    height: 32px;
+    border-radius: 5px;
+
+}
+
+
+.containermain__input{
+    padding: 1rem;
+    background-color: #fff;
+    color: gray;
+    font-size: 8px;
+    width: 213px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+
+/*CONTAINER BANNER*/
+.containermain__banner{
+    width: 311px;
+    height: 239px;
+    color: #3E2753;
+}
+
